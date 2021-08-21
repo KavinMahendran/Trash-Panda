@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	margin:0;
+	padding:0;
+	
+	}
+	
+.wrapper {
+	width:1170px;
+	margin: auto;
+	}
+.header{
+	background-image: url(../img/p.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size:cover;
+	background-position: center center;
+	position: relative;
+	font:"Berlin Sans FB";
+	
+	
+	}
+.nav-area{
+	float:right;
+	list-style: none;
+	margin-top: 30px;
+	}
+.nav-area li{
+	display: inline-block;
+	} 
+.nav-area li a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:"Berlin Sans FB"; 
+	font-size: 20px;
+	}
+.nav-area li a:hover{
+	background: #000;
+	color: #FFF;
+	}
+.main-text{
+	position:absolute;
+	width:600px;
+	height:300px;
+	margin: 20% 30%;
+	text-align: center;
+	}
+	
+.main-text h1{
+	text-align: center;
+	text-transfrom: uppercase;
+	font-size: 50px;
+	color: #FFF;
+	font-weight: 300;
+	font:"Berlin Sans FB"; 
+	
+	}
+body{
+	background-image:url(../img/p.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size:cover;
+	background-position: center center;
+	position: relative;
+	font:"Berlin Sans FB";
+	}
+	
+.wrapper2{
+	width: 400px;
+	height: 420px;
+	top: 50%;
+	left: 50%;
+	padding: 60px 30px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	box-shadow: 8px 8px 50px #000;
+	font:"Berlin Sans FB"; 
+	}
+.wrapper2 h1{
+	margin: 0;
+	pading: 0;
+	font-weight: 900;
+	font-size: 50px;
+	color: #FFF;
+	text-align:center;
+	margin-bottom: 8%;
+	font:"Berlin Sans FB"; 
+	
+	}
+.wrapper2 input{
+	width:300px;
+	margin-bottom: 20px;
+	
+	}
+.wrapper2 input[type=text], .wrapper2 input[type=password]{
+	border: none;
+	border-bottom: 2px solid #000;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	font-size: 16px;
+	opacity: 1;
+	color: #003;
+	}
+.wrapper2 input[type=submit]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #0C0;
+	color: #FFF;
+	font-size: 20px;
+	font-weight:bold;
+	font:"Berlin Sans FB"; 
+	
+	}
+.wrapper2 input[type=submit]: hover{
+	cursor:pointer;
+}
+
+tr{
+	color:#FFF;
+	font-weight:400; 
+	font-size:24px; 
+	}
+table, tr, td{
+	border:2px solid #FFF;
+	border-collapse:collapse; 
+	 }
+table: hover{
+	background-color:#000;}
